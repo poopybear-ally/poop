@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train & Game</title>
+    <style>
+        /* General body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Section container */
+        section {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Flexbox layout for training and news sections */
+        .training, .gaming-news {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Article boxes within sections */
+        article {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 45%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive design adjustments */
+        @media screen and (max-width: 768px) {
+            .training article, .gaming-news article {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Train & Game</h1>
+        <p>Boost your skills, level up your gaming!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#training">Training Guides</a>
+        <a href="#gaming-news">Gaming News</a>
+        <a href="#resources">Resources</a>
+    </nav>
+
+    <!-- Training Section -->
+    <section id="training" class="container">
+        <h2>Training Guides</h2>
+        <div class="training">
+            <article>
+                <h3>Game Strategies</h3>
+                <p>Learn the best strategies for your favorite games with detailed guides and tips.</p>
+            </article>
+            <article>
+                <h3>Skill Improvement</h3>
+                <p>Focus on training specific skills to enhance your gameplay performance.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Gaming News Section -->
+    <section id="gaming-news" class="container">
+        <h2>Latest Gaming News</h2>
+        <div class="gaming-news">
+            <article>
+                <h3>New Game Releases</h3>
+                <p>Stay up-to-date with the latest game launches and updates.</p>
+            </article>
+            <article>
+                <h3>Esports Events</h3>
+                <p>Catch up on upcoming esports tournaments and results from the latest competitions.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="container">
+        <h2>Resources</h2>
+        <p>Find tools, software, and accessories to enhance your gaming setup.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Train & Game. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
