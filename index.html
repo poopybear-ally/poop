@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Call of Duty - Train & Game</title>
+    <style>
+        /* General body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Section container */
+        section {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Flexbox layout for the training and news sections */
+        .training, .gaming-news {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Article boxes within sections */
+        article {
+            background-color: #222;
+            padding: 20px;
+            margin: 10px;
+            width: 45%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive design adjustments */
+        @media screen and (max-width: 768px) {
+            .training article, .gaming-news article {
+                width: 100%;
+            }
+        }
+
+        /* Purchase Section */
+        .purchase-section {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .purchase-button {
+            background-color: #e60000;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .purchase-button:hover {
+            background-color: #ff1a1a;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Call of Duty - Train & Game</h1>
+        <p>Get better at Call of Duty with strategies, updates, and resources!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#training">Skill Training</a>
+        <a href="#gaming-news">Call of Duty Updates</a>
+        <a href="#purchase">Purchase Images</a>
+    </nav>
+
+    <!-- Skill Training Section -->
+    <section id="training" class="container">
+        <h2>Call of Duty Skill Training</h2>
+        <div class="training">
+            <article>
+                <h3>Weapon Mastery</h3>
+                <p>Learn how to master your favorite weapons in Call of Duty. Discover recoil control techniques and when to use different loadouts to gain an edge in battle.</p>
+            </article>
+            <article>
+                <h3>Movement Techniques</h3>
+                <p>Become an expert in movement! Learn to strafe, slide, and position yourself effectively to dominate your opponents.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Call of Duty Updates Section -->
+    <section id="gaming-news" class="container">
+        <h2>Latest Call of Duty Updates</h2>
+        <div class="gaming-news">
+            <article>
+                <h3>Season 5 Patch Notes</h3>
+                <p>The latest update introduces new weapons, maps, and exciting bug fixes. Make sure to check the full patch notes to stay ahead of the competition!</p>
+            </article>
+            <article>
+                <h3>New Event: Double XP Weekend</h3>
+                <p>Get ready for the weekend's Double XP event. Play your favorite game modes and level up faster than ever before!</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Image Purchase Section -->
+    <section id="purchase" class="container purchase-section">
+        <h2>Purchase Exclusive Call of Duty Images</h2>
+        <p>Get high-quality, exclusive images for just $10. Perfect for your gaming setup, wallpapers, or social media profiles.</p>
+        <a href="#" class="purchase-button">Purchase for $10</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Call of Duty - Train & Game. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
